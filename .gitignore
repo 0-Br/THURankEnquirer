@@ -1,0 +1,11 @@
+# 数据文件（含敏感个人信息）
+data/
+
+# IDE
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pkl

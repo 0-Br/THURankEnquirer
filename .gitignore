@@ -1,11 +1,21 @@
 # 数据文件（含敏感个人信息）
 data/
+*.pkl
 
-# IDE
-.vscode/
-
-# Python
+# Python 编译产物
 __pycache__/
 *.pyc
 *.pyo
-*.pkl
+
+# 系统文件
+.DS_Store
+._*
+Thumbs.db
+
+# 编辑器与 IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+\#*\#
